@@ -1,0 +1,11 @@
+name: caller
+run-name: caller
+on:
+    push:
+    workflow_dispatch:
+jobs:
+    call-workflow-passing-data:
+        uses: 1Pete3/Reusable-Workflows/.github/workflows/Reusable-Workflow.yml@main
+        with:
+            config-path: .github/labeler.yml
+        secrets: inherit
