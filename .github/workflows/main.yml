@@ -2,6 +2,10 @@ name: reusable-workflow
 run-name: reusable-workflow
 on:
   workflow_dispatch:
+    inputs:
+      config-path:
+        required: true
+        type: string
   workflow_call:
     inputs:
       config-path:
