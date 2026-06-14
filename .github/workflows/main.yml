@@ -1,6 +1,7 @@
 name: reusable-workflow
 run-name: reusable-workflow
 on:
+  workflow_dispatch:
   workflow_call:
     inputs:
       config-path:
