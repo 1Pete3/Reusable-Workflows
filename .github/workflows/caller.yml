@@ -6,5 +6,5 @@ jobs:
   call-workflow-passing-data:
     uses: ./.github/workflows/main.yml
     with:
-      config-path: ./.github/workflows/labeler.yml
+      config-path: .github/labeler.yml
     secrets: inherit
