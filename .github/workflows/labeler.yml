@@ -1,7 +1,3 @@
 documentation:
   - changed-files:
-    - any-glob-to-any-file: 'docs/**'
-
-backend:
-  - changed-files:
-    - any-glob-to-any-file: 'src/backend/**'
+    - any-glob-to-any-file: 'README.md'
