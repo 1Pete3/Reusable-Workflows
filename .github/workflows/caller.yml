@@ -1,0 +1,10 @@
+name: caller
+run-name: caller
+on:
+    workflow_dispatch:
+jobs:
+  call-workflow-passing-data:
+    uses: ./.github/workflows/main.yml
+    with:
+      config-path: .github/labeler.yml
+    secrets: inherit
